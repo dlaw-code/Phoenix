@@ -1,0 +1,151 @@
+@media(max-width: 1025px) {
+    .container-box{
+        padding: 0 3%;
+        
+    }
+    .contact-form,
+    .row{
+        padding: 0 3%;
+    }
+
+    .image-doubs{
+        width: 100%;
+    }
+
+    
+}
+
+
+@media(max-width: 990px) {
+    .image-doubs{
+        width: 400px;
+        height: 600px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+    }
+
+    .title{
+        
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    
+
+    .image-doubs{
+        width: 100%;
+        height: 400px;
+    }
+
+    h1{
+        margin-top: 0;
+        font-size: 3rem;
+    }
+
+    .contact-form{
+        width: 80%;
+        
+    }
+
+    .main-nav{ display: none; }
+
+    
+    .clickMenu{
+        display: inline-block;
+    }
+
+    .main-nav{
+        float: left;
+        
+        
+    }
+
+    .main-nav li{
+        display: block;
+        margin-left: 50px;
+        
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        font-size: 1rem;
+        padding: 10px 0;
+        border: 0;
+    }
+    
+
+    
+
+
+}
+
+@media(max-width: 480px) {
+    body{ font-size: 14px; }
+
+    .container-box{
+        padding: 0 3%;
+    }
+
+    .image-doubs{
+        width: 100%;
+        height: 400px;
+    }
+
+    h1{ 
+        font-size: 2.5rem; 
+        margin-top: 0;
+    }
+
+    .header-wallet{
+        font-size: 2rem;
+        
+    }
+
+    .footer p{ font-size: 60%; }
+
+    .header-sale{ font-size: 2rem; }
+    
+    .btn-validate{
+        display: flex;
+        justify-content: center ;
+        
+    }
+     
+    .btn-valid{
+        display: flex;
+        justify-content: center;
+    }
+
+    input{
+        width: 100%;
+        
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .contact-form{
+        width: 100%;
+        
+    }
+
+    button{
+        width: 100%;
+    }
+
+}   

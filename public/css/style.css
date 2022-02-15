@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(24 24 24);
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+.image-doubs{
+    margin-top: 30px;
+}
+
+
+.logo{
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.clickMenu{
+    display: none;
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+
+.fa-bars{
+    color: #fff;
+    font-size: 200%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+p{ 
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+
+/*****Presale Styling*****/
+
+.text-box{
+    line-height: 1.4;
+    position: absolute;
+    width: 1025px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-sale{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.box-1{
+    margin-top: 40px;
+}
+
+span{
+    line-height: 145%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6{
+    margin-bottom: 30px;
+}
+
+.btn-validate{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    
+}
+
+.header-box{
+    text-align: center;
+}
+
+.btn-click:link,
+.btn-click:visited{
+    background-color: #c84305;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    
+    
+}
+
+.btn-click:hover{
+    background-color: transparent;
+    border: 2px solid #c84305;
+    color: #c84305;
+}
+
+.boxi{
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 1.4;
+    
+}
+
+.title{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.paragraph-issue{
+    margin-bottom: 10px;
+}
+
+.fa-microsoft,
+.fa-expeditedssl,
+.fa-chart-line,
+.fa-coins,
+.fa-dollar-sign,
+.fa-expeditedssl,
+.fa-hourglass-half,
+.fa-creative-commons-nc,
+.fa-ban{
+    font-size: 2.5rem;
+    color: #fc9d4b;
+    margin-top: 30px;
+}
+
+.header-issue{
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+
+.title-phoenix{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+input{
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+::placeholder{
+    color: #ccc;
+}
+
+textarea{
+    background-color: transparent;
+    color: #fff;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.btn-valid{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 20px 30px;
+    
+}
+
+*:focus{ outline: none; }
+
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header-wallet{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+span{
+    display: inline-block;
+    margin-top: 0;
+    font-size: 80%;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+
+
+
+footer{
+    padding: 40px 0;
+}
+
+footer p{
+    font-size: 1rem;
+}
